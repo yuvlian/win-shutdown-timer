@@ -1,0 +1,12 @@
+[package]
+name = "win-shutdown-timer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+strip = true
+lto = true
+opt-level = 3
+codegen-units = 1
